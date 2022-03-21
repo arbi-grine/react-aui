@@ -32,13 +32,10 @@ const Tabs: React.FC<Props.TabsProps> & Props.TabsComposition = ({
 
 const Tab: React.FC<Props.TabProps> = ({ children, disabled, ...rest }) => {
   const { selectedTab, selectTab, index } = rest as InternalProps;
-  return (
-    /** @ts-ignore */
-    children({
-      onSelect: () => selectTab(index),
-      isActive: index === selectedTab,
-    })
-  );
+  return children({
+    onSelect: () => selectTab(index),
+    isActive: index === selectedTab,
+  });
 };
 
 const TabPanel: React.FC = ({ children, ...rest }) => {

@@ -9,13 +9,7 @@ const App: React.FC = () => {
             <ul className="nav nav-tabs" role="tablist">
               <li className="nav-item" role="presentation">
                 <Tabs.Tab>
-                  {({
-                    onSelect,
-                    isActive,
-                  }: {
-                    onSelect: () => void;
-                    isActive: boolean;
-                  }) => {
+                  {({ onSelect, isActive }) => {
                     return (
                       <button
                         className={`nav-link ${isActive && "active"}`}
@@ -31,13 +25,7 @@ const App: React.FC = () => {
               </li>
               <li className="nav-item" role="presentation">
                 <Tabs.Tab>
-                  {({
-                    onSelect,
-                    isActive,
-                  }: {
-                    onSelect: () => void;
-                    isActive: boolean;
-                  }) => {
+                  {({ onSelect, isActive }) => {
                     return (
                       <button
                         className={`nav-link ${isActive && "active"}`}
@@ -53,13 +41,7 @@ const App: React.FC = () => {
               </li>
               <li className="nav-item" role="presentation">
                 <Tabs.Tab>
-                  {({
-                    onSelect,
-                    isActive,
-                  }: {
-                    onSelect: () => void;
-                    isActive: boolean;
-                  }) => {
+                  {({ onSelect, isActive }) => {
                     return (
                       <button
                         className={`nav-link ${isActive && "active"}`}
@@ -85,13 +67,7 @@ const App: React.FC = () => {
                     <ul className="nav nav-tabs" role="tablist">
                       <li className="nav-item" role="presentation">
                         <Tabs.Tab>
-                          {({
-                            onSelect,
-                            isActive,
-                          }: {
-                            onSelect: () => void;
-                            isActive: boolean;
-                          }) => {
+                          {({ onSelect, isActive }) => {
                             return (
                               <button
                                 className={`nav-link ${isActive && "active"}`}
@@ -107,13 +83,7 @@ const App: React.FC = () => {
                       </li>
                       <li className="nav-item" role="presentation">
                         <Tabs.Tab>
-                          {({
-                            onSelect,
-                            isActive,
-                          }: {
-                            onSelect: () => void;
-                            isActive: boolean;
-                          }) => {
+                          {({ onSelect, isActive }) => {
                             return (
                               <button
                                 className={`nav-link ${isActive && "active"}`}
@@ -129,13 +99,7 @@ const App: React.FC = () => {
                       </li>
                       <li className="nav-item" role="presentation">
                         <Tabs.Tab>
-                          {({
-                            onSelect,
-                            isActive,
-                          }: {
-                            onSelect: () => void;
-                            isActive: boolean;
-                          }) => {
+                          {({ onSelect, isActive }) => {
                             return (
                               <button
                                 className={`nav-link ${isActive && "active"}`}
@@ -179,13 +143,7 @@ const App: React.FC = () => {
                             <ul className="nav nav-tabs" role="tablist">
                               <li className="nav-item" role="presentation">
                                 <Tabs.Tab>
-                                  {({
-                                    onSelect,
-                                    isActive,
-                                  }: {
-                                    onSelect: () => void;
-                                    isActive: boolean;
-                                  }) => {
+                                  {({ onSelect, isActive }) => {
                                     return (
                                       <button
                                         className={`nav-link ${
@@ -203,13 +161,7 @@ const App: React.FC = () => {
                               </li>
                               <li className="nav-item" role="presentation">
                                 <Tabs.Tab>
-                                  {({
-                                    onSelect,
-                                    isActive,
-                                  }: {
-                                    onSelect: () => void;
-                                    isActive: boolean;
-                                  }) => {
+                                  {({ onSelect, isActive }) => {
                                     return (
                                       <button
                                         className={`nav-link ${
@@ -227,13 +179,7 @@ const App: React.FC = () => {
                               </li>
                               <li className="nav-item" role="presentation">
                                 <Tabs.Tab>
-                                  {({
-                                    onSelect,
-                                    isActive,
-                                  }: {
-                                    onSelect: () => void;
-                                    isActive: boolean;
-                                  }) => {
+                                  {({ onSelect, isActive }) => {
                                     return (
                                       <button
                                         className={`nav-link ${
@@ -313,13 +259,7 @@ const App: React.FC = () => {
       <ul className="nav nav-tabs" role="tablist">
         <li className="nav-item" role="presentation">
           <Tabs.Tab>
-            {({
-              onSelect,
-              isActive,
-            }: {
-              onSelect: () => void;
-              isActive: boolean;
-            }) => {
+            {({ onSelect, isActive }) => {
               return (
                 <button
                   className={`nav-link ${isActive && "active"}`}
@@ -335,13 +275,7 @@ const App: React.FC = () => {
         </li>
         <li className="nav-item" role="presentation">
           <Tabs.Tab>
-            {({
-              onSelect,
-              isActive,
-            }: {
-              onSelect: () => void;
-              isActive: boolean;
-            }) => {
+            {({ onSelect, isActive }) => {
               return (
                 <button
                   className={`nav-link ${isActive && "active"}`}
@@ -357,13 +291,7 @@ const App: React.FC = () => {
         </li>
         <li className="nav-item" role="presentation">
           <Tabs.Tab>
-            {({
-              onSelect,
-              isActive,
-            }: {
-              onSelect: () => void;
-              isActive: boolean;
-            }) => {
+            {({ onSelect, isActive }) => {
               return (
                 <button
                   className={`nav-link ${isActive && "active"}`}
